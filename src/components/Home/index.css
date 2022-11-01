@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.darkThemeContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  min-height: 100vh;
+  background-size: cover;
+}
+.LightThemeContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-img {
+  height: 320px;
+  width: 320px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.darkThemeTitle {
+  font-size: 25px;
+  font-family: 'roboto';
+  color: #ffffff;
+}
+.lightThemeTitle {
+  font-size: 25px;
+  font-family: 'roboto';
+}

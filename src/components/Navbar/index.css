@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.DarkTheme {
+  background-color: #333333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.LightTheme {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333333;
+  padding: 30px;
+}
+.logo-image {
+  height: 50px;
+  width: 50px;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item {
+  list-style: none;
+}
+.nav-link-dark {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 30px;
+  color: #ffffff;
+}
+.nav-link-light {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.theme-logo-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.theme-img {
+  height: 40px;
+  width: 40px;
+}
